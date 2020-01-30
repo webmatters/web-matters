@@ -18,7 +18,7 @@
         <button
           @click="isOpen = !isOpen"
           type="button"
-          class="block focus:outline-none text-gray-900 hover:text-gray-600 focus:text-gray-900"
+          class="block focus:outline-none text-gray-900 hover:text-gray-600 active:text-gray-900"
         >
           <menu-icon v-if="!isOpen" class="fill-current" />
           <close-icon v-else class="fill-current" />
