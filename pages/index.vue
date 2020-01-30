@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- Hero -->
-    <section class="bg-white">
+    <section class="bg-white ">
       <!-- Hero Text -->
       <div class="container sm:flex mx-auto my-8 sm:py-24">
         <div class=" text-center sm:w-1/2 sm:text-left px-4">
@@ -12,12 +12,12 @@
             Thoughtfully designed and meticulously developed apps guided by
             expert strategy. All reasonably priced for entrepreneurs.
           </h2>
-          <div class="hidden sm:block mt-20">
+          <div class="hidden sm:inline-block mt-20">
             <a
               href="#"
               type="=button"
-              class="bg-cta rounded-full text-white py-2 px-4"
-              >Free Consultation</a
+              class="bg-cta rounded-full text-white py-2 px-4 shadow-xl"
+              >Free Strategy Session</a
             >
           </div>
         </div>
@@ -29,15 +29,36 @@
           <a
             href="#"
             type="=button"
-            class="bg-cta rounded-full text-white py-2 px-4 inline-block "
-            >Free Consultation</a
+            class="bg-cta rounded-full text-white py-2 px-4 inline-block"
+            >Free Strategy Session</a
           >
         </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="container mx-auto text-center pt-12 pb-24">
+      <h2 class=" uppercase text-2xl">
+        What We Do
+      </h2>
+      <services-tabs class="mt-8" />
+    </section>
+    <!-- Why Web Matters? -->
+    <section class="container mx-auto text-center py-12">
+      <h2 class=" uppercase text-2xl">
+        Why Web Matters?
+      </h2>
+      <div class="mt-8">
+        Test text
       </div>
     </section>
   </div>
 </template>
 
 <script>
-export default {}
+import ServicesTabs from '@/components/ServicesTabs.vue'
+export default {
+  components: {
+    ServicesTabs
+  }
+}
 </script>
