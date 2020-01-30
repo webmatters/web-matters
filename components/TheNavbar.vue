@@ -32,14 +32,12 @@
       class="px-8 pb-4 md:flex md:items-center md:p-0 font-semibold"
     >
       <a href="#" class="block md:ml-6 mt-2 text-primary hover:text-secondary"
-        >Our Services</a
+        >What We Do</a
       >
       <a href="#" class="block mt-2 md:ml-6 text-primary hover:text-secondary"
         >Why Web Matters?</a
       >
-      <a
-        href="#"
-        class="inline-block mt-3 md:ml-6 bg-cta rounded-lg md:rounded-full px-4 py-2 text-white hover:text-white text-sm uppercase"
+      <a href="#" class="block mt-2 md:ml-6 text-primary hover:text-secondary"
         >Contact Us</a
       >
     </div>
