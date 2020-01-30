@@ -5,9 +5,9 @@ module.exports = {
     fontFamily: { body: ['Open Sans'] },
     extend: {
       colors: {
-        primary: colors.gray[400],
+        primary: colors.gray[600],
         secondary: colors.gray[500],
-        cta: colors.gray[600]
+        cta: colors.gray[700]
       }
     }
   },
