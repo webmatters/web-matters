@@ -1,20 +1,24 @@
 `<template>
   <header
-    class="bg-white md:flex md:justify-between md:px-8 md:py-6 md:items-center"
+    class="container mx-auto bg-white md:flex md:justify-between md:px-8 md:py-6 md:items-center"
   >
     <div class="flex items-center justify-between px-8 py-6 md:p-0">
       <!-- Brand Logo -->
       <div>
-        <a href="#"
-          ><img class="h-8" src="~assets/img/logo.svg" alt="Web Matters logo"
-        /></a>
+        <a href="#">
+          <img
+            class="h-12"
+            src="~assets/img/wm-logo.png"
+            alt="Web Matters logo"
+          />
+        </a>
       </div>
       <!-- Mobile Menu Toggler -->
       <div class="md:hidden">
         <button
           @click="isOpen = !isOpen"
           type="button"
-          class=" block focus:outline-none text-gray-900 hover:text-gray-600 focus:text-gray-900"
+          class="block focus:outline-none text-gray-900 hover:text-gray-600 focus:text-gray-900"
         >
           <menu-icon v-if="!isOpen" class="fill-current" />
           <close-icon v-else class="fill-current" />
@@ -36,7 +40,7 @@
       <a
         href="#"
         class="inline-block mt-3 md:ml-6 bg-cta rounded-lg md:rounded-full px-4 py-2 text-white hover:text-white text-sm uppercase"
-        >Free Strategy Session</a
+        >Contact Us</a
       >
     </div>
   </header>

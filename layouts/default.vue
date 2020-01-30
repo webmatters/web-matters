@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="font-body w-full min-h-screen flex flex-col text-gray-900 bg-gray-200"
-  >
+  <div class="font-body w-full min-h-screen flex flex-col text-gray-900">
     <the-navbar />
     <nuxt class="flex-grow" />
     <the-footer />
